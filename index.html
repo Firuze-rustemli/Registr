@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form class="register">
+                    <label>First Name</label>
+                    <input type="text" class="required" data-errormsg="Adiniz bos buraxmayin" name="firstname" placeholder="John">
+                    
+                    <label>Last Name</label>
+                    <input type="text" name="lastname" placeholder="Doe">
+                     <label>Phone</label>
+                    <input type="text" class="required" data-errormsg="Telefon nomresini bos buraxmayin"  name="Phone" placeholder="0xx xxx-xx-xx">
+
+                    <label>Email</label>
+                    <input type="email" class="required" data-errormsg="E-poctunuz bos buraxmayin" name="email" placeholder="john@doe.com">
+
+                    <label>Password</label>
+                    <input type="password" class="required" data-errormsg="Sifreniz bos buraxmayin" name="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;">
+
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
